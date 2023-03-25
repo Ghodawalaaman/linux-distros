@@ -1,0 +1,4 @@
+After installing dwm make a file named '.xinitrc' in your home directory and add the following line.
+==============================
+exec dwm
+==============================

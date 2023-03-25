@@ -1,0 +1,10 @@
+To have proper touchpad settings add the following to /etc/X11/xorg.conf.d/70-synaptics.conf
+==============================
+Section "InputClass"
+	Identifier "touchpad"
+	Driver "synaptics"
+	MatchIsTouchpad "on"
+		Option "TapButton1" "1"
+		Option "TapButton2" "3"
+		Option "TapButton3" "2"
+EndSection

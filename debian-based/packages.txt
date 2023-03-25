@@ -1,0 +1,7 @@
+yt-dlp
+sxiv
+mupdf
+fonts-jetbrains-mono
+emacs
+neovim
+thefuck
